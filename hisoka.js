@@ -555,25 +555,17 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f8d35118f27c5b371da2b.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⌕ 15k Per Group via E-Walet 1 Month\n⌕ 20k via pulsa 1 Month\n\n Premium Price Bot\n⌕ 10k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6281252848955 (Owner)\n\nDonate For Me : \n\n⌕ Paypal : https://www.paypal.me/Rifando35\n⌕ Saweria : https://saweria.co/Nando35` }, { quoted: m })
+                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f8d35118f27c5b371da2b.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Sewa Bot 15k Manen\n\nPayment/Dana/GoPay Minat Pm owner\nhttps://wa.me/6281233738677 (Owner)\n` }, { quoted: m })
             }
             break
             case 'sc':  case 'sourcecode': {
 	        anu = `
-⌕ Script : https://github.com/Nando35/ZetsM
-⌕ Script ori : https://github.com/DikaArdnt/Hisoka-Morou
-
-Jangan lupa kasih bintang.
-⌕ Donate : 628125284895 (Dana / gopay)
-⌕ Saweria : https://saweria.co/Nando35
-⌕ Paypal : https://www.paypal.me/Rifando35
-
-Dont Forget Donate
+Kepo Lu Ke Dora
 `
 	                let btn = [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://instagram.com/naando.jpeg'
+                                    url: 'https://instagram.com/FikriiSky'
                                 }
                             }]
                         hisoka.send5ButImg(m.chat, anu, botname, global.sc, btn)
@@ -598,7 +590,7 @@ Alya
 	                let btn = [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://instagram.com/naando.jpeg'
+                                    url: 'https://instagram.com/FiKriiSky'
                                 }
                             }]
                         hisoka.send5ButImg(m.chat, anu, botname, global.tq, btn)
@@ -1298,7 +1290,7 @@ break
             }
             break
             case 'ebinary': {
-            if (!m.quoted.text && !text) throw `Kirim/reply text dengan caption ${prefix + command}`
+            if (!m.quoted.text && !text) throw `Kirim/reply text dengan capon ${prefix + command}`
             let { eBinary } = require('./lib/binary')
             let teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text
             let eb = await eBinary(teks)
@@ -1500,7 +1492,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://instagram.com/alya.xzy'
+                                    url: 'https://instagram.com/Fikrii.xz'
                                }
                             }, {
                                 quickReplyButton: {
@@ -2910,7 +2902,7 @@ untuk membuat stiker dan lain lain
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://instagram.com/naando.jpeg'
+                                    url: 'https://instagram.com/.FikriiSky'
                                 }
                             }, {
                                 quickReplyButton: {
