@@ -3,7 +3,7 @@ const chalk = require('chalk')
 
 // Website Api
 global.APIs = {
-	Fiktod: 'https://api.lolhuman.xyz',
+	LolKey: 'https://api.lolhuman.xyz',
 }
 
 // Apikey Website Api
