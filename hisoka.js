@@ -555,7 +555,37 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f8d35118f27c5b371da2b.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Sewa Bot 15k Manen\n\nPayment/Dana/GoPay Minat Pm owner\nhttps://wa.me/6281233738677 (Owner)\n` }, { quoted: m })
+                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/d3c618fb30b0bc0fe97b2.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n┏━━━━━━━━━━━━━━⬣
+┃        〔 SEWA BOT  〕
+┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+┃⬣ SEWA BOT ⬣
+┃⬡ PERMANEN : 10.000k
+┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+┃〔 KELEBIHAN BOT 〕
+┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+┃⬡ ON 24 JAM
+┃⬡ RUN DI RDP
+┃⬡ ANTI DELAY 
+┃⬡ ANTI LINK
+┃⬡ WELCOME TEXT
+┃⬡ FITUR 500+
+┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+┃⬣〔  SISTEM 〕⬣
+┃⬡ TF - SEND BUKTI - JOIN GRUP
+┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+┃ *PAYMENT*
+┃Dana : 0812-3373-8677
+┃Gopay : 0812-3373-8677
+┃
+┃Note :
+┃Jika Sudah Transfer Wajib Kirim
+┃Bukti Transfer Ke Nomor Di Bawah
+┃Agar Bisa Cepat Di Proses Langsung
+┃
+┃Cp : Wa.me/6281233738677
+┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
+
+_Bukan Bot_ *_Wibusoft_*👍🏻\n` }, { quoted: m })
             }
             break
             case 'sc':  case 'sourcecode': {
