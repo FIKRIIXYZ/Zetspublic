@@ -2626,7 +2626,6 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'menu': case 'help': case '?': {
                 buffer = await getBuffer(`https://telegra.ph/file/5b7dfa74a98f61347570e.jpg`)
                 anu = `Hai kak ${pushname}, Brow have a nice day:)
-               yu = fs.readFileSync('./vn.mp3')
 
 Saya adalah ${botname}, yang memudahakan anda
 untuk membuat stiker dan lain lain
