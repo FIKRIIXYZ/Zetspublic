@@ -27,7 +27,7 @@ const setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //limit
 limitawal = '100'
-botname = 'Pap tetek dong kack'
+botname = 'YUKINIKO'
 wm = '© FikriiSky𓅂'
 
 // read database
@@ -2625,7 +2625,8 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 
             case 'menu': case 'help': case '?': {
                 buffer = await getBuffer(`https://telegra.ph/file/5b7dfa74a98f61347570e.jpg`)
-                anu = `Hai kak ${pushname}, have a nice day:)
+                anu = `Hai kak ${pushname}, Brow have a nice day:)
+               yu = fs.readFileSync('./vn.mp3')
 
 Saya adalah ${botname}, yang memudahakan anda
 untuk membuat stiker dan lain lain
